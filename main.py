@@ -36,7 +36,6 @@ def main():
     main.longest = names[maxidx]
 
     print('The shortest name is ', main.shortest)
-    #
     print('The longest name is ', main.longest)
 
 
