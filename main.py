@@ -5,20 +5,19 @@
 # numbers = list(map(int, input().split()))
 
 def main():
-    numbers = input().split()
-    for i in range(len(numbers)):
-        numbers[i] = int(numbers[i])
-    print(numbers)
 
+    strvals = input()
     ######################################################
     # Use this variable for the result
     ######################################################
-    main.evenlist = []
+    main.shortest = ''
+    main.longest = ''
     ######################################################
 
     # Code your program here
 
-    print(main.evenlist)
+    print('The shortest name is ', main.shortest)
+    print('The longest name is ', main.longest)
 
 
 if __name__ == '__main__':
