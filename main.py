@@ -1,24 +1,23 @@
-##################################################
-# Comlete your code here
-##################################################
 
-# numbers = list(map(int, input().split()))
+def findNames(names):
+    """
+    ########################################
+    Code Your Program here
+    ########################################
+    """
+
+    return longest, shortest
+
 
 def main():
 
-    ######################################################
-    # Use this variable for the result
-    ######################################################
-    main.shortest = ''
-    main.longest = ''
-    ######################################################
+    # names = input('Enter 5 students names').split()
+    names = ['Albert', 'Joanne', 'Kurt', 'Bill', 'Matt']
 
-    # Code your program here
+    longest, shortest = findNames(names)
 
-    names = input('Enter 5 students names').split()
-
-    print('The shortest name is ', main.shortest)
-    print('The longest name is ', main.longest)
+    print('The shortest name is ', shortest)
+    print('The longest name is ', longest)
 ##
 
 
